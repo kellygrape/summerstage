@@ -49,6 +49,31 @@ const Meta = (props: IMetaProps) => {
 
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+
+        <meta property="og:url" content="https://www.udsummerstage.org/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Upper Darby Summer Stage" />
+        <meta
+          property="og:description"
+          content="Bringing the Magic of Live Theater to our community since 1976"
+        />
+        <meta
+          property="og:image"
+          content={`${router.basePath}/opengraph.jpg`}
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="udsummerstage.org" />
+        <meta property="twitter:url" content="https://www.udsummerstage.org/" />
+        <meta name="twitter:title" content="Upper Darby Summer Stage" />
+        <meta
+          name="twitter:description"
+          content="Bringing the Magic of Live Theater to our community since 1976"
+        />
+        <meta
+          name="twitter:image"
+          content={`${router.basePath}/opengraph.jpg`}
+        />
       </Head>
       <NextSeo
         title={props.title}
