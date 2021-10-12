@@ -2,11 +2,11 @@ import { useRouter } from "next/router";
 
 type ILogoProps = {
   xl?: boolean;
-  className: string;
+  className?: string;
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? "44" : "32";
+  //const size = props.xl ? "44" : "32";
   const router = useRouter();
 
   return (

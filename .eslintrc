@@ -4,7 +4,7 @@
   "rules": {
     "semi": [2, "always"],
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "singleQuote": true
       }
@@ -25,7 +25,7 @@
       },
       "rules": {
         "prettier/prettier": [
-          "error",
+          "warn",
           {
             "singleQuote": true
           }
