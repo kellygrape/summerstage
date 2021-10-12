@@ -1,10 +1,10 @@
-import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
-import { Section } from '../layout/Section';
+import { VerticalFeatureRow } from "../feature/VerticalFeatureRow";
+import { Section } from "../layout/Section";
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="We've Got Magic Up Our Sleeve"
+    description="Summer Stage draws over 800 young students, from middle school to college age, to participate in all phases of musical theatrical production, from acting to set design."
   >
     <VerticalFeatureRow
       title="Your title here"
