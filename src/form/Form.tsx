@@ -6,7 +6,7 @@ export default function Form() {
       name="contact"
       data-netlify="true"
       netlify-honeypot="bot-field"
-      hidden
+      className="w-full"
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="p-2 w-1/2">
