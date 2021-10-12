@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
-  locale: 'en',
+  site_name: "Upper Darby Summer Stage",
+  title: "Upper Darby Summer Stage",
+  description: "Bringing the Magic of Live Theater to our community since 1976",
+  locale: "en",
 };

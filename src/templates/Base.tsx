@@ -2,6 +2,7 @@ import { Meta } from "../layout/Meta";
 import { Section } from "../layout/Section";
 import { AppConfig } from "../utils/AppConfig";
 import { Banner } from "./Banner";
+import { Footer } from "./Footer";
 import { Hero } from "./Hero";
 import Link from "next/link";
 import React from "react";
@@ -29,7 +30,7 @@ const Base = () => (
           sales and sponsorships.
         </p>
       </div>
-      <Banner />
+      {/* <Banner /> */}
     </Section>
     <div className="bg-hero-400">
       <Section
@@ -119,6 +120,7 @@ const Base = () => (
         </div>
       </Section>
     </div>
+    <Footer />
   </div>
 );
 
