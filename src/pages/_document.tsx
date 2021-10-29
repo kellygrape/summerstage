@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { Navbar } from "../navigation/Navbar";
 
 import { AppConfig } from "../utils/AppConfig";
 
@@ -15,6 +16,7 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          <Navbar />
           <Main />
           <NextScript />
         </body>
