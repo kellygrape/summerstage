@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { Navbar } from "../navigation/Navbar";
 
+import { Navbar } from "../navigation/Navbar";
 import { AppConfig } from "../utils/AppConfig";
 
 // Need to create a custom _document because i18n support is not compatible with `next export`.
