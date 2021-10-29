@@ -1,4 +1,3 @@
-import router from "next/router";
 import { Background } from "../background/Background";
 import { Section } from "../layout/Section";
 import { Logo } from "./Logo";
